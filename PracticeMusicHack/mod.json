@@ -1,0 +1,15 @@
+{
+	"geode": "v0.1.0",
+	"version": "v1.0.0",
+	"id": "com.ninxout.crazymod",
+	"name": "crazymod",
+	"developer": "ninXout",
+	"description": "",
+	"binary": "crazymod",
+	"dependencies": [
+		{
+			"id": "com.geode.api",
+			"required": true
+		}
+	]
+}

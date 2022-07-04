@@ -1,0 +1,15 @@
+{
+	"geode": "v0.1.0",
+	"version": "v1.0.0",
+	"id": "com.ninxout.safeprogress",
+	"name": "SafeProgress",
+	"developer": "ninXout",
+	"description": "Doesn't save progress on a level",
+	"binary": "InvisPause",
+	"dependencies": [
+		{
+			"id": "com.geode.api",
+			"required": true
+		}
+	]
+}

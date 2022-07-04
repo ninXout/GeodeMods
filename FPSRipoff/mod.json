@@ -1,0 +1,15 @@
+{
+	"geode": "v0.1.0",
+	"version": "v1.0.0",
+	"id": "com.ninxout.FPSripoff",
+	"name": "FPSripoff",
+	"developer": "ninXout",
+	"description": "FPS Ripoff from Camila",
+	"binary": "BotTest",
+	"dependencies": [
+		{
+			"id": "com.geode.api",
+			"required": true
+		}
+	]
+}

@@ -1,0 +1,15 @@
+{
+	"geode": "v0.1.0",
+	"version": "v1.0.0",
+	"id": "com.ninxout.newmod",
+	"name": "NEWmod",
+	"developer": "ninXout",
+	"description": "IDK what it does still",
+	"binary": "NEWmod",
+	"dependencies": [
+		{
+			"id": "com.geode.api",
+			"required": true
+		}
+	]
+}
