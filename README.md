@@ -6,7 +6,7 @@ My collection of Geode Mods.
 
 [BROKEN: DOESN'T WORK 100% OF THE TIME] Invisible Pause on New Best: When you die with a new best on a level, it pauses everything (doesn't bring up the menu) so you can see where you died. Only restarts when you pause (clicking ESC) and restart, sadly.
 
-Practice music hack: (most code copied from @camila314) that fixes the bug where it wont stop playing music when dying while invisible
+Practice music hack: (Modification of a mod by @camila314) that fixes the bug where it wont stop playing music when dying while invisible
 
 REALLY Accurate Percentage (Modification of a mod by @camila314): Individual mod file of Accurate Percentage, extended to 5 decimals.
 
@@ -20,3 +20,4 @@ FPS Ripoff: A mod that changes the font of @camila314's FPS Viewer (and finally 
 
 No Pulse Ripoff: @Kriega77 https://discord.com/channels/911701438269386882/979352389985390603/992863410620477532
 
+[NOT DONE: CODE MAY BE INCOMPLETE OR MAY MALFUNCTION] Ultra Rainbow (Modification of a mod by @camila314): Rainbow Hack, but with individual player colors.
