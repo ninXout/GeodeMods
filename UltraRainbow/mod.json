@@ -1,0 +1,15 @@
+{
+	"geode": "v0.1.0",
+	"version": "v1.0.0",
+	"id": "com.ninxout.ultrarainbow",
+	"name": "UltraRainbow",
+	"developer": "ninXout",
+	"description": "",
+	"binary": "UltraRainbow",
+	"dependencies": [
+		{
+			"id": "com.geode.api",
+			"required": true
+		}
+	]
+}
