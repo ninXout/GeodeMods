@@ -2,8 +2,6 @@
 
 USE_GEODE_NAMESPACE();
 
-bool m_isPracticeMode = false;
-
 class $modify(PlayLayer) {
 	void update(float dt) {
 		bool m_antiCheatPassed = true;
@@ -13,37 +11,62 @@ class $modify(PlayLayer) {
 
 	void vfDChk() {}
 
-	void togglePracticeMode(bool b) {
-		bool m_isPracticeMode = true;
-		PlayLayer::togglePracticeMode(b);
-	}
-
-	void playerWillSwitchMode(PlayerObject* po, GameObject* go) {
-		if (bool m_isPracticeMode = true) {
+	void switchToFlyMode(PlayerObject* p, GameObject* o, bool b, int i) {
+		if (m_isPracticeMode) {
 			PlayLayer::markCheckpoint();
-			PlayLayer::playerWillSwitchMode(po, go);
+			PlayLayer::switchToFlyMode(p,o,b,i);
 		}
-		if (bool m_isPracticeMode = false) {
-			PlayLayer::playerWillSwitchMode(po, go);
+		else {
+			PlayLayer::switchToFlyMode(p,o,b,i);
 		}
 	}
 	
+	void switchToRobotMode(PlayerObject* p0, GameObject* g0, bool b1) {
+		if (m_isPracticeMode) {
+			PlayLayer::markCheckpoint();
+			PlayLayer::switchToRobotMode(p0,g0,b1);
+		}
+		else {
+			PlayLayer::switchToRobotMode(p0,g0,b1);
+		}
+	}
+
+	void switchToRollMode(PlayerObject* p0, GameObject* g0, bool b1) {
+		if (m_isPracticeMode) {
+			PlayLayer::markCheckpoint();
+			PlayLayer::switchToRollMode(p0,g0,b1);
+		}
+		else {
+			PlayLayer::switchToRollMode(p0,g0,b1);
+		}
+	}
+
+	void switchToSpiderMode(PlayerObject* p0, GameObject* g0, bool b1) {
+		if (m_isPracticeMode) {
+			PlayLayer::markCheckpoint();
+			PlayLayer::switchToSpiderMode(p0,g0,b1);
+		}
+		else {
+			PlayLayer::switchToSpiderMode(p0,g0,b1);
+		}
+	}
+
 	void toggleFlipped(bool p1, bool g1) {
-		if (bool m_isPracticeMode = true) {
+		if (m_isPracticeMode) {
 			PlayLayer::markCheckpoint();
 			PlayLayer::toggleFlipped(p1, g1);
 		}
-		if (bool m_isPracticeMode = false) {
+		else {
 			PlayLayer::toggleFlipped(p1, g1);
 		}
 	}
 
 	void playGravityEffect(bool p2) {
-		if (bool m_isPracticeMode = true) {
+		if (m_isPracticeMode) {
 			PlayLayer::markCheckpoint();
 			PlayLayer::playGravityEffect(p2);
 		}
-		if (bool m_isPracticeMode = false) {
+		else {
 			PlayLayer::playGravityEffect(p2);
 		}
 	}

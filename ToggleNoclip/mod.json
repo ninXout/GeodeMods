@@ -1,11 +1,11 @@
 {
 	"geode": "v0.1.0",
 	"version": "v1.0.0",
-	"id": "com.ninxout.noclipbundle",
-	"name": "Noclip Bundle",
+	"id": "com.ninxout.togglenoclip",
+	"name": "ToggleNoclip",
 	"developer": "ninXout",
 	"description": "",
-	"binary": "RunInfo",
+	"binary": "ToggleNoclip",
 	"dependencies": [
 		{
 			"id": "com.geode.api",

@@ -1,11 +1,11 @@
 {
 	"geode": "v0.1.0",
 	"version": "v1.0.0",
-	"id": "com.ninxout.noclipbundle",
-	"name": "Noclip Bundle",
+	"id": "com.ninxout.runinfo",
+	"name": "RunInfo",
 	"developer": "ninXout",
 	"description": "",
-	"binary": "RunInfo",
+	"binary": "TextureSwitch",
 	"dependencies": [
 		{
 			"id": "com.geode.api",

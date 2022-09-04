@@ -1,11 +1,11 @@
 {
 	"geode": "v0.1.0",
 	"version": "v1.0.0",
-	"id": "com.ninxout.noclipbundle",
-	"name": "Noclip Bundle",
+	"id": "com.ninxout.quickrestart",
+	"name": "QuickRestart",
 	"developer": "ninXout",
 	"description": "",
-	"binary": "RunInfo",
+	"binary": "ZoomHack",
 	"dependencies": [
 		{
 			"id": "com.geode.api",
