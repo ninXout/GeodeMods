@@ -50,12 +50,7 @@ class $(UILayer) {
 		auto mpl = reinterpret_cast<MyPlayLayer*>(PlayLayer::get());
 
 		if (kc == KEY_N) {
-			if (mpl->noclip == false) {
-				mpl->noclip = true;
-			}else{
-				mpl->noclip = false;
-			}
-			
+			mpl->noclip = !mpl->noclip;
 		} else {
 			UILayer::keyDown(kc);
 		}
